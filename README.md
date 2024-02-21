@@ -1,7 +1,7 @@
 # CryptoCoins-iOS-App
 
 ## 📱 About this project
-This project will be a cryptocurrency iOS mobile application that downloads live prices data from an API and uses CoreData to save locally the current user's portfolio.
+This project will be a cryptocurrency iOS mobile application that downloads live price data from an API and uses CoreData to save locally the current user's portfolio.
 
 The repository contains all code based on an MVVM architecture pattern to organize the files and keep the code as efficient as possible.
 
@@ -26,5 +26,8 @@ The repository contains all code based on an MVVM architecture pattern to organi
 
 ##  📱 App screens:
 Comming soon!
+
+## Important note:
+🚀 This app is under development, so new features are being created daily.
 
 🙏🏽 Thanks for your attention! 
