@@ -19,6 +19,7 @@
 		2DEAC7212B85F65300358956 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7202B85F65300358956 /* CoinRowView.swift */; };
 		2DEAC7232B85F6D300358956 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7222B85F6D300358956 /* PreviewProvider.swift */; };
 		2DEAC7252B85FCAF00358956 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7242B85FCAF00358956 /* Double.swift */; };
+		2DEAC7272B860C7E00358956 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7262B860C7E00358956 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2DEAC7202B85F65300358956 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		2DEAC7222B85F6D300358956 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		2DEAC7242B85FCAF00358956 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		2DEAC7262B860C7E00358956 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		2D3A10582B85237C00C6CF7C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2DEAC7262B860C7E00358956 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DEAC7212B85F65300358956 /* CoinRowView.swift in Sources */,
+				2DEAC7272B860C7E00358956 /* HomeViewModel.swift in Sources */,
 				2D3A10452B84F87600C6CF7C /* ContentView.swift in Sources */,
 				2D3A10432B84F87600C6CF7C /* CryptoCoinsApp.swift in Sources */,
 				2D3A10542B84FBB400C6CF7C /* Color.swift in Sources */,

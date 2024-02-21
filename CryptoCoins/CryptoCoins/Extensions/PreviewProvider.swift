@@ -23,6 +23,8 @@ class DeveloperPreview {
     //To sure the initilizer is only in the class
     private init() { }
     
+    let homeVM = HomeViewModel()
+    
     let coin = CoinModel(id: "bitcoin",
                          symbol: "btc",
                          name: "Bitcoin",
