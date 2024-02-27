@@ -43,7 +43,11 @@ struct PortfolioView: View {
                     trainlingNavBarButton
                 }
             })
-            
+            .onChange(of: vm.searchText, perform: { value in
+                if value == "" {
+                    removeSelectedCoin()
+                }
+            })
         }
     }
 }
@@ -52,10 +56,13 @@ struct PortfolioView: View {
 extension PortfolioView {
     
     private func saveButtonPressed(){
-        guard let coin = selectedCoin else {return}
+        guard
+            let coin = selectedCoin,
+            let amount = Double(quantityText)
+        else {return}
         
         //Save to portfolio
-        
+        vm.updatePortfolio(coin: coin, amount: amount )
         
         //Show checkmark
         withAnimation(.easeIn){
