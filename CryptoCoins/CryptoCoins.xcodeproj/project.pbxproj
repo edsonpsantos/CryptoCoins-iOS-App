@@ -37,6 +37,7 @@
 		2DD550B12B8E372E00834E58 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD550B02B8E372E00834E58 /* PortfolioDataService.swift */; };
 		2DE3D71F2B974FD000AB0873 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3D71E2B974FD000AB0873 /* ChartView.swift */; };
 		2DE3D7212B97575D00AB0873 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3D7202B97575D00AB0873 /* Date.swift */; };
+		2DE3D7232B9768BB00AB0873 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3D7222B9768BB00AB0873 /* String.swift */; };
 		2DEAC7212B85F65300358956 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7202B85F65300358956 /* CoinRowView.swift */; };
 		2DEAC7232B85F6D300358956 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7222B85F6D300358956 /* PreviewProvider.swift */; };
 		2DEAC7252B85FCAF00358956 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAC7242B85FCAF00358956 /* Double.swift */; };
@@ -79,6 +80,7 @@
 		2DD550B02B8E372E00834E58 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		2DE3D71E2B974FD000AB0873 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		2DE3D7202B97575D00AB0873 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		2DE3D7222B9768BB00AB0873 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		2DEAC7202B85F65300358956 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		2DEAC7222B85F6D300358956 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		2DEAC7242B85FCAF00358956 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				2DEAC7242B85FCAF00358956 /* Double.swift */,
 				2D6338512B88CD5200D9F456 /* UIApplication.swift */,
 				2DE3D7202B97575D00AB0873 /* Date.swift */,
+				2DE3D7222B9768BB00AB0873 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				2D63385C2B89011D00D9F456 /* HomeStatisticsView.swift in Sources */,
 				2D3A10622B856E5E00C6CF7C /* CircleButtonAnimationView.swift in Sources */,
 				2DD550AF2B8E366500834E58 /* PortfolioContainer.xcdatamodeld in Sources */,
+				2DE3D7232B9768BB00AB0873 /* String.swift in Sources */,
 				2DC14BF32B881A6C003BC104 /* CoinImageView.swift in Sources */,
 				2DEAC7232B85F6D300358956 /* PreviewProvider.swift in Sources */,
 				2DEAC7252B85FCAF00358956 /* Double.swift in Sources */,

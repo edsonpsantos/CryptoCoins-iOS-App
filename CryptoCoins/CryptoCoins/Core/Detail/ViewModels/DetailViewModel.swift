@@ -13,6 +13,9 @@ class DetailViewModel: ObservableObject {
     @Published var overViewStatistics: [StatisticModel] = []
     @Published var additionalStatistics: [StatisticModel] = []
     @Published var coin: CoinModel
+    @Published var coinDescription: String? = nil
+    @Published var webSiteUrl: String? = nil
+    @Published var redditUrl: String? = nil
     
     private let coinDetailService: CoinDetailDataService
     private var cancellables = Set<AnyCancellable>()
@@ -28,22 +31,25 @@ class DetailViewModel: ObservableObject {
             .combineLatest($coin)
             .map(mapDataToStatistic)
             .sink {[weak self] (returnedArrays) in
-                print("Recieved Coin Detail Data")
-                print(returnedArrays.overview)
-                print(returnedArrays.additional)
                 self?.overViewStatistics = returnedArrays.overview
                 self?.additionalStatistics = returnedArrays.additional
+            }
+            .store(in: &cancellables)
+        
+        coinDetailService.$coinDetails
+            .sink {[weak self] (returnedCoinDetails) in
+                self?.coinDescription = returnedCoinDetails?.readableDescription
+                self?.webSiteUrl = returnedCoinDetails?.links?.homepage?.first
+                self?.redditUrl = returnedCoinDetails?.links?.subredditURL
             }
             .store(in: &cancellables)
     }
     
     private func mapDataToStatistic(coinDetailModel: CoinDetailModel?, coinModel: CoinModel) -> (overview: [StatisticModel], additional:[StatisticModel]){
         
-        //overview
         let overviewArray = createOverViewArray(coinModel: coinModel)
         
-        //additional
-       let additionalArray = createAdditionalArray(coinDetailModel: coinDetailModel, coinModel: coinModel)
+        let additionalArray = createAdditionalArray(coinDetailModel: coinDetailModel, coinModel: coinModel)
         
         return(overviewArray, additionalArray)
     }
