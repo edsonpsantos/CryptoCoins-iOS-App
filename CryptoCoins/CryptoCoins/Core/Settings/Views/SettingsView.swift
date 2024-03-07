@@ -73,7 +73,7 @@ extension SettingsView {
     }
     
     private var coinGeckSection: some View{
-        Section(header: Text("Edson Santos")) {
+        Section(header: Text("CoinGecko")) {
             VStack(alignment: .leading){
                 Image("coingecko")
                     .resizable()
