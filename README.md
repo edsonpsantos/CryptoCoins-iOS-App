@@ -39,9 +39,4 @@ https://github.com/edsonpsantos/CryptoCoins-iOS-App/assets/24628289/d067f642-b27
 https://github.com/edsonpsantos/CryptoCoins-iOS-App/assets/24628289/faa7a41a-d310-4ba0-a7f9-21e8f32481e8
 
 
-
-
-## Important note:
-🚀 This app is under development, so new features are being created daily.
-
 🙏🏽 Thanks for your attention! 
